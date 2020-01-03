@@ -29,7 +29,7 @@ MyRepro
 
 For a structure like this, the top level MyRepro folder will be removed. This makes "path too long" errors from Java less likely. 
 
-For the "Opens the solution" step, it will automatically open the solution file if there's only a single solution file in the project folders. If there are multiple solution files, it will print a message to that effect in the console window and you'll have to figure out on your own which one to open.
+For the "Opens the solution" step: it will search the folders and if it finds only one solution file, it will open it. If there are multiple solution files, it will print a message to that effect in the console window; you'll have to manually open one.
 
 ## Stuff I might add
 
